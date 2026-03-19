@@ -40,3 +40,5 @@ print(result2)
 Output:
 -1
 No negatives
+
+Explainations: 
