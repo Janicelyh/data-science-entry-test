@@ -16,8 +16,7 @@ def find_and_replace(lst, find_val, replace_val):
 Attempted answer : 
 
 def find_and_replace(lst, find_val, replace_val):
-    
-       if not isinstance(lst, list):
+    if not isinstance(lst, list):
         raise TypeError("lst must be a list")
     
     return [replace_val if item == find_val else item for item in lst]
@@ -32,3 +31,12 @@ print(result2)
 Output:
 [1, 5, 3, 4, 5, 5]
 ['orange', 'banana', 'orange']
+
+Explainations: 
+Task 1 allow us to do data cleaning by finding and replacing the values that was needed and help to fix incorrect entries. 
+This coding 
+( if not isinstance(lst, list):
+        raise TypeError("lst must be a list") is an input validation to ensure that this is the correct dataset that we want before running the function.
+The invoke functions provide the values to replace 2 with 5 within the dataset and replacing apple with orange wihin the list. This function works for 
+different types of data and not just 1.
+This data cleaning process will allow dataset to be more meaniningful when doing analysis.    
