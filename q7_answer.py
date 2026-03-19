@@ -29,3 +29,5 @@ car1.describe_car()
 
 Output:
 2020 Toyota Corolla
+
+Explainations: 
