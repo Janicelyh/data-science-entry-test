@@ -16,12 +16,8 @@ def update_dictionary(dct, key, value):
 Attempted answer:
 
 def update_dictionary(dct, key, value):
-    """
-    Create a function that updates a dictionary (dct) with a new key-value pair.
-    - If the key already exists in dct, print the original value, then update its value.
-    - Return the updated dictionary.
-    """
-    if not isinstance(dct, dict):
+    
+        if not isinstance(dct, dict):
         raise TypeError("dct must be a dictionary")
     
     if key in dct:
