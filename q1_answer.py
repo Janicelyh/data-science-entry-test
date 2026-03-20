@@ -15,19 +15,15 @@ Task 1
 Attempted Answer: 
 
 def swap(x, y):
-    # Check if both are numeric
     if not (isinstance(x, (int, float)) and isinstance(y, (int, float))):
-        return -1  
+        return -1
     
-    # Swap using only x and y
-    x = x + y
-    y = x - y
-    x = x - y
+    x, y = y, x
     
-    # Print swapped values
     print("x =", x)
     print("y =", y)
-
+    
+    return x, y
 
 # Invoke the function
 
@@ -47,7 +43,7 @@ y = 9
 Return value: None
      
 Explainations: 
-The above swap functions allows us to sort numberic numbers within a dataset and its a temporary value exchange without losing the original data. 
+The above swap functions allows us to sort numberic numbers within a dataset in a temporary settings and the original dataset is still available. 
 This coding ( (isinstance(x, (int, float)) and isinstance(y, (int, float))): return -1 ) helps to ensure that only numbers will be pick up within the dataset. 
 For the invoke function, it is used to call out the values that we needed for sorting. Apple is not numeric hence fucntions returns to -1. 
 9 and 17 are numeric and when combine with the ealier swap function and the numbers were swapped and printed as x=17 and y=9 .
