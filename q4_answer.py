@@ -32,3 +32,12 @@ print(result2)
 Output:
 dlroW olleH
 nohtyP
+
+Explainations: 
+The above coding functions allows us to revese text strings and is useful when doing data slicing for text analysis.  
+We can also do palindromes checks to normalise a string of text. The invoke functions calls out the string of text where we want to reverse or 
+do palimdromes checks. This coding is usful when doing data cleaning for string text to slice out meaningful insiights for reporting eventually. 
+                                                                                                 
+
+                                                                                                 
+
