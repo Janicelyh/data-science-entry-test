@@ -16,8 +16,7 @@ def update_dictionary(dct, key, value):
 Attempted answer:
 
 def update_dictionary(dct, key, value):
-    
-        if not isinstance(dct, dict):
+    if not isinstance(dct, dict):
         raise TypeError("dct must be a dictionary")
     
     if key in dct:
@@ -38,3 +37,9 @@ Output:
 Original value: 25
 {'name': 'Alice'}
 {'age': 26}
+
+Explainations: 
+This function allows us to do updates within the dataset and tracking the changes made. 
+This is important to ensure data accuracy within the dataset.
+The invoke function calls out the variables that needed to changes and allows users to change the age of the Alice 
+from 25 to 26 while tracking the orignal values. 
