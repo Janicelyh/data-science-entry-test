@@ -35,3 +35,9 @@ print(result2)
 Output:
 True
 False
+
+Explainations: 
+The function allows us to ensure only numnbers are allowed and check if one number is divisiable by another set of number. 
+In the above task, there is remainder for result1 so the output is true. 
+For result2, there is a remainder and hence the output is false. 
+We can also run the codes for numbers with decimal points which is useful during data analysis. 
