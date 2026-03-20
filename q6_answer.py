@@ -37,6 +37,6 @@ No negatives
 Explainations: 
 The task 1 function allow us to do data validation to quickly detect the first negative numbers in a list without scanning the entire list. 
 This is useful in data cleaning where one can filter out outliers or values that doesnt make sense within the datasetss. In the above coding funtions, 
-it calls out negative values as the "error" data and users will be prompted to cleamn up the data. 
-The invoke fuctions calls out the secenarios to check on  negatives within the datasets where result1 calls out the negative value with -1 while 
+it calls out negative values as the "error" data and users will be prompted to clean up the data. 
+The invoke functions calls out the scenarios to check on negatives within the datasets where result1 calls out the negative value with -1 while 
 there is no negatives in result2.
