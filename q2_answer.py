@@ -38,5 +38,5 @@ This coding
 ( if not isinstance(lst, list):
         raise TypeError("lst must be a list") is an input validation to ensure that this is the correct dataset that we want before running the function.
 The invoke functions provide the values to replace 2 with 5 within the dataset and replacing apple with orange wihin the list. This function works for 
-different types of data and not just 1.
+different types of data such as numbers and text and not just 1.
 This data cleaning process will allow dataset to be more meaniningful when doing analysis.    
